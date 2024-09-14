@@ -3,6 +3,42 @@
   padding: 0px;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#outermostcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1400px;
+  width: 2100px;
+  background-color: #666666;
+  border: 1px solid black;
+}
+
+#container1 {
+  width: 500px;
+  padding-top: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* border: 1px solid black; */
+}
+#container2 {
+  width: 500px;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* border: 1px solid black; */
+}
+#container3 {
+  width: 500px;
+  padding-bottom: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* border: 1px solid black; */
+}
+
 .container {
   width: 500px;
   height: 850px;
@@ -371,46 +407,46 @@
   border-radius: 10px;
 }
 #replycontainer {
-    width: 50px;
-    height: 50px;
-    margin-left: 18px;
-    background-color: #F6A61A;
-    border-radius: 15px;
-    color: white;
-    font-size: x-large;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #greater7 {
-    height: 50px;
-    margin-left: 160px;
-    color: #b6b5b7;
-    font-size: 30px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-  }
-  #tickcontainer2 {
-    width: 50px;
-    height: 50px;
-    margin-left: 18px;
-    background-color: #F6A61A;
-    border-radius: 15px;
-    color: white;
-    font-size: x-large;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #greater8 {
-    height: 50px;
-    margin-left: 140px;
-    color: #b6b5b7;
-    font-size: 30px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-  }
+  width: 50px;
+  height: 50px;
+  margin-left: 18px;
+  background-color: #f6a61a;
+  border-radius: 15px;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#greater7 {
+  height: 50px;
+  margin-left: 160px;
+  color: #b6b5b7;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+#tickcontainer2 {
+  width: 50px;
+  height: 50px;
+  margin-left: 18px;
+  background-color: #f6a61a;
+  border-radius: 15px;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#greater8 {
+  height: 50px;
+  margin-left: 140px;
+  color: #b6b5b7;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
