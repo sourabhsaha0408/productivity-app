@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#container1 {
+  width: 500px;
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  /* border: 1px solid; */
+}
+#image1 {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid; */
+}
+#tagline {
+  font-size: 50px;
+  color: #fdfdfe;
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
+}
+#emailcontainer {
+  display: flex;
+  justify-content: center;
+}
+#email {
+  width: 400px;
+  height: 60px;
+  background-color: #1e90ff;
+  color: #dde9f8;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logincredentials {
+  display: flex;
+  justify-content: space-around;
+}
+.googleid {
+  width: 200px;
+  height: 60px;
+  color: #b6b5b7;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #2c2d2c;
+  border-radius: 30px;
+}
+#tandc {
+  color: #616060;
+  font-size: 20px;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+}
